@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Project Management, Agile, and AI with expert insights.">
+    <meta name="keywords" content="Project Management, Agile, AI, Scrum, Kanban, Jekyll">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Project Management & AI">
+    <meta property="og:description" content="Expert insights on Project Management, Agile, and AI.">
+    <meta property="og:image" content="URL_TO_YOUR_IMAGE">
+    <meta property="og:url" content="https://yourgithubpage.github.io">
+    <title>Project Management & AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #333;
+        }
+        nav ul li {
+            position: relative;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            left: 0;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .sub-dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+            left: 100%;
+            top: 0;
+        }
+        .sub-dropdown:hover .sub-dropdown-content {
+            display: block;
+        }
+		 h2 {
+            color: #0078D7;
+        }
+		 h3 {
+            color: #0078D7;
+        }
+		 h4 {
+            color: #0078D7;
+        }
+		form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: 0 auto; }
+        form input, form textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        form button { padding: 10px; background: #005f99; color: white; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; }
+        form button:hover { background: #004070; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="banner.png" alt="Project Management & AI Banner" class="banner-image">
+        <h1>Project Management & AI</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certifications">Certification</a></li>
+                <li class="dropdown">
+                    <a href="#knowledge" class="dropbtn">Knowledge</a>
+                    <div class="dropdown-content">
+                        <a href="#core-knowledge-areas">Core Knowledge Areas</a>
+                        <div class="sub-dropdown">
+                            <a href="#frameworks-methodologies">Frameworks & Methodologies</a>
+                            <div class="sub-dropdown-content">
+                                <a href="#predictive-project-management">Predictive Project Management</a>
+                                <a href="#agile-project-management">Agile Project Management</a>
+                                <a href="#hybrid-project-management">Hybrid Project Management</a>
+                                <a href="#ai-driven-project-management">AI-Driven Project Management</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Project Management & AI</h2>
+        <p>In today’s fast-paced world, the integration of Artificial Intelligence in Project Management is revolutionizing the way businesses operate. From intelligent automation and predictive analytics to risk assessment and workflow optimization, AI empowers project managers with real-time insights, enhanced decision-making capabilities, and increased efficiency. Whether you’re a seasoned professional or just beginning your journey, this platform provides in-depth knowledge, industry trends, and practical tools to help you navigate the future of project management with AI. Explore, learn, and transform the way you manage projects!</p>
+    </section>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p>Project Management & AI is a platform dedicated to bridging the gap between traditional project management practices and cutting-edge artificial intelligence technologies. Our mission is to empower professionals, businesses, and aspiring leaders with the knowledge, tools, and insights needed to navigate the evolving landscape of project management. With AI-driven automation, data-driven decision-making, and intelligent risk assessment, modern project management is transforming at an unprecedented pace. Through in-depth articles, case studies, best practices, and expert opinions, we aim to provide valuable resources that help professionals adapt, innovate, and excel. Whether you are a project manager, an executive, or an AI enthusiast, this platform serves as your go-to hub for exploring the limitless possibilities of AI in project management.</p>
+    </section>
+    
+     <section id="certifications">
+        <h2>Certifications</h2>
+        <table border="1">
+            <tr>
+                <th>Certification</th>
+                <th>Issuing Organization</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>PMP (Project Management Professional)</td>
+                <td>PMI (Project Management Institute)</td>
+                <td>A globally recognized certification for project managers.</td>
+            </tr>
+            <tr>
+                <td>PRINCE2</td>
+                <td>AXELOS</td>
+                <td>A structured project management methodology focusing on processes and control.</td>
+            </tr>
+            <tr>
+                <td>CSM (Certified Scrum Master)</td>
+                <td>Scrum Alliance</td>
+                <td>Certification for mastering the Scrum framework.</td>
+            </tr>
+            <tr>
+                <td>SAFe Agilist</td>
+                <td>Scaled Agile</td>
+                <td>Certification for implementing Agile at scale.</td>
+            </tr>
+            <tr>
+                <td>CAPM (Certified Associate in Project Management)</td>
+                <td>PMI</td>
+                <td>Entry-level project management certification.</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="knowledge">
+        <h2>Project Management Knowledge</h2>
+        
+        <h3 id="core-knowledge-areas">Core Knowledge Areas</h3>
+        <p>Essential areas of project management, including scope, time, cost, quality, risk, and stakeholder management.</p>
+         <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>Knowledge Area</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Project Integration Management</td>
+            <td>Ensures that project elements are properly coordinated, including project plan development, execution, and change control.</td>
+        </tr>
+        <tr>
+            <td>Project Scope Management</td>
+            <td>Defines what work is required and ensures that all necessary tasks are completed while avoiding unnecessary work.</td>
+        </tr>
+        <tr>
+            <td>Project Schedule Management</td>
+            <td>Focuses on timely project completion by planning, defining activities, sequencing, estimating durations, and controlling the schedule.</td>
+        </tr>
+        <tr>
+            <td>Project Cost Management</td>
+            <td>Involves estimating, budgeting, and controlling project costs to ensure completion within the approved budget.</td>
+        </tr>
+        <tr>
+            <td>Project Quality Management</td>
+            <td>Ensures project deliverables meet defined quality standards through quality planning, assurance, and control.</td>
+        </tr>
+        <tr>
+            <td>Project Resource Management</td>
+            <td>Involves acquiring, developing, and managing the project team and resources needed for project success.</td>
+        </tr>
+        <tr>
+            <td>Project Communication Management</td>
+            <td>Ensures timely and appropriate planning, collection, creation, distribution, storage, and management of project information.</td>
+        </tr>
+        <tr>
+            <td>Project Risk Management</td>
+            <td>Identifies, analyzes, and responds to project risks to minimize potential negative impacts and maximize opportunities.</td>
+        </tr>
+        <tr>
+            <td>Project Procurement Management</td>
+            <td>Manages procurement of goods and services required for the project, including vendor selection, contract management, and procurement execution.</td>
+        </tr>
+        <tr>
+            <td>Project Stakeholder Management</td>
+            <td>Identifies project stakeholders, analyzes their expectations and influence, and develops strategies to engage them effectively.</td>
+        </tr>
+    </table>
+        <h3 id="frameworks-methodologies">Frameworks & Methodologies</h3>
+        <h4 id="predictive-project-management">Predictive Project Management</h4>
+        <p>This approach follows a structured, sequential process with well-defined phases.</p>
+        <h4 id="predictive-project-management">Predictive Project Management</h4>
+
+<p>Predictive Project Management, commonly known as the Waterfall approach, is a structured project management methodology where all phases are planned upfront and executed in a sequential manner. It is best suited for projects with well-defined objectives, stable requirements, and minimal expected changes. This methodology ensures thorough documentation, clear milestones, and strict phase-wise execution.</p>
+
+<p>Each phase, such as initiation, planning, execution, monitoring, and closure, follows a predefined path, making it easier to track progress and manage resources efficiently. However, it lacks flexibility, making it less ideal for dynamic and evolving projects. Industries such as construction, manufacturing, and large-scale software development often rely on predictive project management to ensure quality, compliance, and timely delivery.</p>
+
+<h5>Real-World Examples:</h5>
+<ul>
+    <li><strong>Construction Projects:</strong> Building skyscrapers, bridges, and highways follows a strict sequence of activities such as design approval, procurement, and construction phases.</li>
+    <li><strong>Aerospace & Defense:</strong> Large-scale aerospace projects like aircraft manufacturing require meticulous planning and a structured execution process to comply with safety regulations.</li>
+    <li><strong>Traditional Software Development:</strong> Enterprise-level applications with clear scope and regulatory requirements, such as banking software, often use predictive methodologies.</li>
+    <li><strong>Pharmaceutical Development:</strong> Drug discovery and clinical trials follow a rigid, step-by-step process before receiving regulatory approvals.</li>
+</ul>
+
+        <h4 id="agile-project-management">Agile Project Management</h4>
+        <p>Agile focuses on flexibility, adaptability, and iterative development.</p>
+        <p>Agile Project Management is an iterative and flexible approach that focuses on continuous improvement, collaboration, and customer feedback. Unlike the traditional predictive model, Agile embraces change and encourages adaptive planning, making it ideal for projects with evolving requirements. Agile methodologies, such as Scrum and Kanban, emphasize incremental development, frequent releases, and cross-functional teamwork.</p>
+
+<p>By breaking projects into smaller iterations called sprints, Agile allows teams to deliver value faster while responding to changes in real time. Daily stand-up meetings, backlog prioritization, and continuous feedback loops ensure that teams remain aligned with business goals. Agile is widely used in software development, product innovation, and industries that require rapid adaptability and customer engagement.</p>
+
+<h5>Real-World Examples:</h5>
+<ul>
+    <li><strong>Software Development:</strong> Tech giants like Google, Amazon, and Microsoft use Agile methodologies to build and release software updates frequently, ensuring faster time-to-market.</li>
+    <li><strong>Startup Product Development:</strong> Startups developing mobile apps or SaaS platforms use Agile to iterate quickly based on user feedback and market demands.</li>
+    <li><strong>Marketing Campaigns:</strong> Digital marketing teams apply Agile principles to launch and optimize ad campaigns in response to real-time analytics.</li>
+    <li><strong>Healthcare & Telemedicine:</strong> Agile is used in healthcare IT projects to develop patient portals, telemedicine solutions, and AI-driven diagnostics with ongoing user testing and feedback.</li>
+    <li><strong>Automotive Industry:</strong> Companies like Tesla use Agile to rapidly prototype and refine electric vehicle software and autonomous driving features.</li>
+</ul>
+        <h4 id="hybrid-project-management">Hybrid Project Management</h4>
+        <p>This approach combines elements from predictive and agile methodologies.</p>
+        <p>Hybrid Project Management is a flexible approach that combines elements from both predictive (traditional/waterfall) and adaptive (Agile) methodologies. It leverages the structured planning and documentation of predictive models while incorporating the iterative flexibility of Agile. This approach is ideal for projects where certain phases require well-defined milestones and regulatory compliance, while others benefit from rapid adaptation and continuous feedback.</p>
+
+<p>Hybrid models are widely used in industries that demand a balance between stability and agility. Teams can define fixed project phases for high-level planning while using Agile sprints for iterative development. This ensures that organizations can maintain control over scope, budget, and deadlines while also adapting to changing business needs and technological advancements.</p>
+
+<h5>Real-World Examples:</h5>
+<ul>
+    <li><strong>Enterprise Software Development:</strong> Large corporations developing ERP systems or banking applications use hybrid approaches—predictive planning for compliance-heavy requirements and Agile sprints for feature enhancements.</li>
+    <li><strong>Construction & Infrastructure Projects:</strong> While construction follows a strict waterfall model (foundation, framework, finishing), hybrid elements like Agile sprint-based interior design iterations allow flexibility in later stages.</li>
+    <li><strong>Pharmaceutical Industry:</strong> Drug development follows rigid regulatory protocols, but Agile methods are used in iterative clinical trial testing, patient feedback, and data analysis.</li>
+    <li><strong>Automotive Manufacturing:</strong> Car manufacturers use predictive models for production processes while employing Agile for software development in connected vehicles and infotainment systems.</li>
+    <li><strong>Retail & E-commerce:</strong> Traditional supply chain and logistics planning use predictive methods, whereas website development and customer experience improvements rely on Agile methodologies.</li>
+</ul>
+        <h4 id="ai-driven-project-management">AI-Driven Project Management</h4>
+        <p>With advancements in artificial intelligence, project management is evolving with AI-powered tools.</p>
+		<p>AI-Driven Project Management leverages artificial intelligence, machine learning, and automation to enhance decision-making, optimize workflows, and improve project efficiency. AI tools analyze vast amounts of data to provide predictive analytics, risk assessment, and intelligent automation, reducing manual effort and enhancing project success rates. These solutions help project managers make data-driven decisions, allocate resources effectively, and identify potential bottlenecks before they become critical issues.</p>
+
+<p>With the rise of AI-powered project management tools, teams can automate repetitive tasks such as scheduling, reporting, and risk identification. AI enhances agility by continuously learning from project data, suggesting improvements, and providing real-time insights. It enables project managers to shift their focus from administrative tasks to strategic planning and innovation.</p>
+
+<h5>Real-World Examples:</h5>
+<ul>
+    <li><strong>AI-Powered Risk Management:</strong> Companies like IBM and Microsoft use AI-driven risk assessment tools that analyze historical data to predict project risks and recommend mitigation strategies.</li>
+    <li><strong>Automated Scheduling & Resource Allocation:</strong> Tools like Microsoft Project and Monday.com leverage AI to optimize task scheduling, allocate resources efficiently, and adjust timelines dynamically.</li>
+    <li><strong>Chatbots & Virtual Assistants:</strong> AI-powered chatbots assist project teams by answering queries, tracking project status, and providing instant updates to stakeholders.</li>
+    <li><strong>Predictive Analytics in Construction:</strong> AI-driven project management platforms in the construction industry, such as Procore, use machine learning to predict project delays and cost overruns.</li>
+    <li><strong>AI in Agile Development:</strong> Tech giants like Google and Amazon use AI-driven tools to analyze Agile sprint data, suggest backlog prioritization, and automate code testing processes.</li>
+</ul>
+
+    </section>
+    
+    <section id="contact">
+            <h2>Contact</h2>
+            
+            <div class="contact-icons">
+				<a href="mailto:mathewsnjoy@gmail.com"><img src="mail32.png" alt="EMail"></a>
+                <a href="https://wa.me/919895933961" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+                <a href="https://www.linkedin.com/in/mathew-n-joy-pmp" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <h3>Contact Form</h3>
+            <form action="mailto:mathewsnjoy@gmail.com" method="post" enctype="text/plain" onsubmit="clearForm(event)">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>		
+    
+    <footer>
+        <p>&copy; 2025 Project Management & AI. All Rights Reserved.</p>
+    </footer>
+	 <!-- JavaScript for Clearing Form -->
+    <script>
+        function clearForm(event) {
+            <!--document.getElementById("name").value = "";
+             <!--document.getElementById("email").value = "";
+             <!--document.getElementById("message").value = "";
+			setTimeout(() => {
+            event.target.reset(); // Properly resets the form fields
+        }, 100); // Small delay to ensure email client opens first
+        }
+    </script>
+</body>
+</html>
